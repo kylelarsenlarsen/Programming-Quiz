@@ -1,0 +1,66 @@
+header { 
+    display: flex;
+    background-color: rgba(247, 72, 3, 0.87);
+    color: black;
+    margin: 1px;  
+    padding: 5px; 
+    max-width: 4.75%;
+}
+
+
+#introPrompt {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#time {
+    margin: 0px;
+}
+
+
+.buttonGrid {
+    display: grid;
+}
+
+.btn {
+    text-align: center;
+    justify-content: center;
+    background-color: rgba(1, 114, 189, 0.568);
+    color: rgb(255, 255, 255);
+    font-size: x-large;
+    padding: 5px 30px;
+    margin: 25px;
+}
+
+.btn:hover {
+    opacity: .6;
+}
+
+.hidden {
+    display: none;
+    flex-direction: column;
+}
+
+#initialsPrompt {
+    line-height: 50px;
+    text-align: center;
+    align-items: center;
+}
+
+#submitButton {
+    margin-top: -10px;
+}
+
+#message {
+    color: red;
+    font-size: large;
+    margin-top: -10px;
+}
+
+#userScore {
+    padding-left: 5px;
+    font-size: large;
+    margin-top: -5px;
+}
